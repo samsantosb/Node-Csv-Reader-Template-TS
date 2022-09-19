@@ -2,6 +2,7 @@
   "scripts": {
     "start": "ts-node-esm ./src/app.ts",
     "seed": "ts-node-esm ./src/db/mongo.seeder.ts",
+    "data": "ts-node-esm ./src/repositories/csv.repository.ts",
     "test": "jest",
     "coverage": "npx jest --coverage"
   },
