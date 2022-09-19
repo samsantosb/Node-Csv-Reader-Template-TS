@@ -1,1 +1,2 @@
-console.log("Hello World");
+import { script } from "./script/script";
+script();
