@@ -1,2 +1,2 @@
-import { script } from "./script/script";
+import { script } from "./script/main.script";
 script();

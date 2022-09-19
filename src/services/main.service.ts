@@ -1,5 +1,4 @@
 import { MongoRepository } from "../repositories/mongo.repository";
-
 export class MainService {
   constructor(private readonly mongoRepository: MongoRepository) {}
 
