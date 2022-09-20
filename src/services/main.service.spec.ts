@@ -22,17 +22,5 @@ describe("MainService", () => {
         expect(result).toEqual(fakePerson[0]);
       });
     });
-    describe("update", () => {
-      it("should return a person", async () => {
-        const result = await mainService.update("csv", "1", fakePerson[0]);
-        expect(result).toEqual(fakePerson[0]);
-      });
-    });
-    describe("delete", () => {
-      it("should return a person", async () => {
-        const result = await mainService.delete("csv", "1");
-        expect(result).toEqual(fakePerson[0]);
-      });
-    });
   });
 });

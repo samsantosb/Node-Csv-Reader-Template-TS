@@ -28,22 +28,4 @@ export class MainService {
       console.log(error);
     }
   }
-
-  async update(collection: string, id: string, data: any) {
-    try {
-      const result = await this.mongoRepository.update(collection, id, data);
-      return result;
-    } catch (error) {
-      console.log(error);
-    }
-  }
-
-  async delete(collection: string, id: string) {
-    try {
-      const result = await this.mongoRepository.delete(collection, id);
-      return result;
-    } catch (error) {
-      console.log(error);
-    }
-  }
 }
